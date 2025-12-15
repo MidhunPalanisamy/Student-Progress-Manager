@@ -6,9 +6,9 @@ b = a.cursor()
 
 b.execute("use tmm")
 
-pas = int(input("Enter the Password:"))
+pas = input("Enter the Password:")
 
-if pas == 120021:
+if pas == "Password":
 
     nm = input("Enter your Name:")
     sb = input("Enter the subject you are handling:")
@@ -152,3 +152,4 @@ if pas == 120021:
 else:
     print("You are not authorized user.")
     exit()
+
